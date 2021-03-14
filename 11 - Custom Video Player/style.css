@@ -33,6 +33,22 @@ body {
   width: 100%;
 }
 
+.player .full__screen {
+  background: none;
+  border: 0;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  max-width: 50px;
+} 
+
+.full__screen:focus {
+  border-color: #ffc600;
+}
+
 .player:-webkit-full-screen {
   max-width: none;
   width: 100%;
