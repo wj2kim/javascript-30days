@@ -58,7 +58,7 @@
   }
 
   function toggleDone({target}) {
-    if (!target.matches('input')) reuturn; 
+    if (!target.matches('input')) return; 
     const index = target.dataset.index;
 
     items[index].done = !items[index].done;
